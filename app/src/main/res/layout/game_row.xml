@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    android:layout_margin="5dip"
+    app:cardCornerRadius="@dimen/cardview_default_radius"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:layout_gravity="end"
+        android:layout_margin="5dip"
+        android:tint="#000"
+        android:id="@+id/exit_games"
+        android:visibility="gone"/>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:padding="5dip"
+    android:layout_margin="5dip">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_game_title"
+        android:text="Game Title"
+        android:layout_margin="2.5dip"
+        android:textSize="20sp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_game_date"
+        android:text="Game Date"
+        android:layout_margin="2.5dip"
+        android:textSize="17sp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_game_joined"
+        android:text="Joined"
+        android:layout_margin="2.5dip"
+        android:textSize="17sp"
+        android:visibility="gone"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:text="Join"
+        android:textAllCaps="false"
+        android:id="@+id/btn_joined"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="5dip"
+        />
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>

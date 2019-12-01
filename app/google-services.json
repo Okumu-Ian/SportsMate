@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "741191098755",
+    "firebase_url": "https://sportsmate-67415.firebaseio.com",
+    "project_id": "sportsmate-67415",
+    "storage_bucket": "sportsmate-67415.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741191098755:android:5438b812e2edc5d1bed6b6",
+        "android_client_info": {
+          "package_name": "com.example.sportsmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741191098755-mjeur7jrklj6t5fgvrf2bd0tma1qdkoe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sportsmate",
+            "certificate_hash": "a44c7faff6bd79a6aa957f9eb4124d1f582cf1b8"
+          }
+        },
+        {
+          "client_id": "741191098755-22eoh3b1lgv8od15lh6i0c52p0lff4ot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW9Qmzz4MvwiqhTnIpXXmOGabsF0dftzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741191098755-22eoh3b1lgv8od15lh6i0c52p0lff4ot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

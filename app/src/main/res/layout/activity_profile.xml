@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ProfileActivity">
+
+<androidx.appcompat.widget.AppCompatTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/my_sports_profie"
+    android:fontFamily="@font/faster_one"
+    android:textColor="@color/colorAccent"
+    android:textSize="20sp"
+    android:id="@+id/txt_title"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+        android:background="@android:color/white"
+        android:layout_marginEnd="20dip"
+        android:gravity="bottom"
+        android:layout_marginStart="20dip"
+        android:layout_marginTop="40dip">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/full_name"
+            android:inputType="textPersonName"
+            android:id="@+id/edt_profile_full_name"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+        android:background="@android:color/white"
+        android:layout_marginEnd="20dip"
+        android:gravity="bottom"
+        android:layout_marginStart="20dip"
+        android:layout_marginTop="10dip">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress"
+            android:id="@+id/edt_profile_email"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+        android:background="@android:color/white"
+        android:layout_marginEnd="20dip"
+        android:gravity="bottom"
+        app:passwordToggleEnabled="true"
+        android:layout_marginStart="20dip"
+        android:layout_marginTop="10dip">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:id="@+id/edt_profile_password"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+        android:background="@android:color/white"
+        android:layout_marginEnd="20dip"
+        android:gravity="bottom"
+        app:passwordToggleEnabled="true"
+        android:layout_marginStart="20dip"
+        android:layout_marginTop="10dip">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:id="@+id/edt_profile_phone"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dip"
+            android:layout_height="50dip"
+            android:padding="5dip"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dip"
+            android:layout_marginTop="10dip"
+            android:id="@+id/btn_update"
+            android:text="@string/update"/>
+    </RelativeLayout>
+
+</LinearLayout>
